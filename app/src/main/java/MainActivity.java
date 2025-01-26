@@ -9,5 +9,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Placeholder for ChatGPT integration
+                Button chatgptButton = findViewById(R.id.chatgpt_button);
+        chatgptButton.setOnClickListener(view -> {
+            // Placeholder for ChatGPT interaction
+            chatWithChatGPT();
+        });
+    }
+
+    private void chatWithChatGPT() {
+        // Implement ChatGPT interaction here
+    }
     }
 }
